@@ -1,0 +1,44 @@
+@import url("../layout/defult-style.css");
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main input {
+    width: 25rem;
+    height: 4rem;
+    padding-left: 1rem;
+}
+
+main span {
+    font-size: 1.8rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+main button {
+    width: 10rem;
+    height: 4rem;
+    background-color: darkblue;
+    color: white;
+    border: none;
+}
+
+main button:hover {
+    background-color: black;
+    border: 1px solid white;
+}
+
+@media screen and (min-width: 720px) {
+    main span {
+        font-size: 1.2rem;
+    }    
+}
