@@ -23,6 +23,6 @@ function fieldValidade() {
     }
 
     if (isValidate) {
-        window.location.href = '../contactBook.html'
+        window.location.href = '../dashboard/dashboard.html'
     }
 }
